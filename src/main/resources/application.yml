@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: CIQDashboard-jiraZephyr-collector
+  data:
+    mongodb:
+      uri:
+      credents:
+      collection:
+        issue:
+        execution:
+
+logging:
+  level:
+    com.cognizant.collector.jira.client.JiraClient:
+
+  pattern:
+    console:
+
+scheduler:
+  cron:
+  enable:
+
+zephyrServer:
+  url:
+  accessKey:
+  secretKey:
+
+jiraServer:
+  url:
+  username:
+  password:
+  projects:
+
+server :
+  port:
+
+jasypt:
+  encryptor:
+    algorithm:
+    password:
+    bean:
